@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="utf-8">
-<title>My Example</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Firemem 3.0</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
+    <div class="container" id="registration-form">
+        
+        <div class="frm">
+            <h1>FIREMEM 3.0</h1>
+            <form method="get"action="">
+                <div class="panel panel-default">
+					<div class="panel-body">
+						<label>Item Details</label>
+						<p>
+						<label>Item ID:<input type="text" name="item_id" required></label> 
+						<label>DB Name:<input  type="tel" name="Db_name"></label>
+						</p>					
+					</div>
+				</div>
+		
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<label>Version
+						<p>
+						<label>Agent Name/Version:<input  id="txtAgentName" name="txtAgentName" size="25">  &nbsp;/
+							<select style="width:200px;height:26px" id="cmbAgentVersion" name="cmbAgentVersion"></select>
+						</label>
+						
+						</p>
+						<p>
+						<label>Base Name/Version:<input id="txtAgentName" name="txtAgentName" size="25"  >&nbsp;/
+						<select style="width:200px;height:26px" id="cmbAgentVersion" name="cmbAgentVersion"></select></label>
+						</p>
+						</label>  
+					</div>
+				</div>
+				<p align="right"><button>Simulate</button></p>
 
-	<form  method="get"action="" >
-
-<div class="panel panel-default">
-    <div class="panel-body">
-<label>Item Details</label>
-<p>
-<label>Item ID:
-<input type="text" name="item_id" required>
-</label> 
-<label>DB Name:
-<input  type="tel" name="Db_name">
-</label>	
-</p>					
-
-</div>
-  </div>
-<div class="panel panel-default">
-    <div class="panel-body">
-<label>Version
-<p>
-<label>Agent Name/Version:
-<input  id="txtAgentName" name="txtAgentName" size="25">  &nbsp;/
-<select style="width:200px;height:26px" id="cmbAgentVersion" name="cmbAgentVersion"></select></label>
-</p>
-<p>
-<label>Base Name/Version:
-<input id="txtAgentName" name="txtAgentName" size="25"  >&nbsp;/
-<select style="width:200px;height:26px" id="cmbAgentVersion" name="cmbAgentVersion"></select></label>
-</p></label>            
-
-
-<p><button>Submit</button></p>
-
-</form>
-	</div>
-  </div>
-
-
+            </form>
+        
+    
 </body>
+
 </html>
